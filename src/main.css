@@ -1,0 +1,45 @@
+@import '~antd/dist/antd.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-family: 'Pacifico', serif;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+}
+
+#root,
+#root > section.ant-layout {
+  height: 100%;
+}
+
+.ant-layout-content {
+  background-color: #fff;
+  padding: 24px;
+  margin: 24px;
+}
+
+.ant-layout-footer {
+  padding: 12px 24px;
+  text-align: right;
+}
+
+.bg-color-contrast {
+  background-color: #ffe6eb;
+}
+
+.bg-color-primary {
+  background-color: #a6e3e9;
+}
+
+.bg-color-secondary {
+  background-color: #cbf1f5;
+}
+
+.color-muted {
+  background-color: #defcfc;
+}
